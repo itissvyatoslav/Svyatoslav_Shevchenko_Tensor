@@ -129,4 +129,14 @@ class AddDishViewController: UIViewController{
         recipeView.scrollRangeToVisible(selectedRange)
     }
     
+   
+func setUpNewDish(_ stringName: String) -> String{
+    if stringName == ""{
+        return "New Dish"
+    } else {
+        return stringName
+    }
+    
+}
+    
 }
