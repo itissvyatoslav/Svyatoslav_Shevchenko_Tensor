@@ -124,13 +124,6 @@ func setUpMenu() {
     }
 }
 
-func setUpNewDish(_ stringName: String) -> String{
-    if stringName == ""{
-        return "New Dish"
-    } else {
-        return stringName
-    }
-}
 
 
 
