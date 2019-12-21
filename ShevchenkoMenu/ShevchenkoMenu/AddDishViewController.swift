@@ -130,13 +130,13 @@ class AddDishViewController: UIViewController{
     }
     
    
-func setUpNewDish(_ stringName: String) -> String{
-    if stringName == ""{
-        return "New Dish"
-    } else {
-        return stringName
-    }
+    func setUpNewDish(_ stringName: String) -> String{
+        if stringName == ""{
+            return "New Dish"
+        } else {
+            return stringName
+        }
     
-}
+    }
     
 }
